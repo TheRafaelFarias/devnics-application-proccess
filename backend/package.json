@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node ace serve --watch",
     "build": "node ace build --production",
-    "start": "cd build && npm i && npm ci --production && cp ../.env .env && node server.js",
+    "start": "cd build && npm i && npm ci --production && node server.js",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
   },
